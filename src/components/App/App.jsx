@@ -32,36 +32,57 @@ function App() {
           </Stack>
         </Stack>
       </Box>
-      <Box sx={{padding:'2em', backgroundColor:'#3D3D3D'}}>
+      <Box sx={{ padding: '2em', backgroundColor: '#3D3D3D' }}>
         <ImageList gap={20}>
           <ImageListItem >
             <img src="images/exposure-log-sq.png" />
             <ImageListItemBar title="Solo Project: Exposure Log" position="below"
               actionIcon={
-                <IconButton>
+                <IconButton href="https://github.com/adairjenkins/exposure-log">
                   <Info />
                 </IconButton>}
             />
           </ImageListItem>
           <ImageListItem>
             <img src="images/movie-sagas-sq.png" />
-            <ImageListItemBar title="Solo Project: Exposure Log" position="below"/>
+            <ImageListItemBar title="Movie Sagas" position="below"
+              actionIcon={
+                <IconButton href="https://github.com/adairjenkins/weekend-movie-sagas">
+                  <Info />
+                </IconButton>}
+            />
           </ImageListItem>
           <ImageListItem>
             <img src="images/react-gallery.gif" />
-            <ImageListItemBar title="Solo Project: Exposure Log" position="below" />
+            <ImageListItemBar title="React Gallery" position="below"
+              actionIcon={
+                <IconButton href="https://github.com/adairjenkins/weekend-react-gallery">
+                  <Info />
+                </IconButton>} />
           </ImageListItem>
           <ImageListItem>
             <img src="images/to-do-list.png" />
-            <ImageListItemBar title="Solo Project: Exposure Log" position="below" />
+            <ImageListItemBar title="To-Do List" position="below"
+              actionIcon={
+                <IconButton href="https://github.com/adairjenkins/weekend-sql-to-do-list">
+                  <Info />
+                </IconButton>} />
           </ImageListItem>
           <ImageListItem>
             <img src="images/jquery-calculator-sq.png" />
-            <ImageListItemBar title="Solo Project: Exposure Log" position="below" />
+            <ImageListItemBar title="jQuery Server Calculator" position="below"
+              actionIcon={
+                <IconButton href="https://github.com/adairjenkins/weekend-jquery-server-calculator">
+                  <Info />
+                </IconButton>} />
           </ImageListItem>
           <ImageListItem>
             <img src="images/salary-calculator-sq.png" />
-            <ImageListItemBar title="Solo Project: Exposure Log" position="below" />
+            <ImageListItemBar title="Salary Calculator" position="below"
+              actionIcon={
+                <IconButton href="https://github.com/adairjenkins/weekend-jquery-salary-calculator">
+                  <Info />
+                </IconButton>} />
           </ImageListItem>
         </ImageList>
       </Box>
